@@ -11,6 +11,7 @@ logging.basicConfig(level=logging.INFO)
 prices = []
 url = "https://www.amazon.in/OnePlus-Bluetooth-Wireless-Earphones-Bombastic/dp/B0B3MNYGTW"
 status = False
+Time = 60*60 # the time is 60 minutes
 
 async def Request(message: types.Message):
     session = requests.Session()
@@ -45,13 +46,13 @@ async def send_welcome(message: types.Message):
 
 @disp.message_handler(commands=['TStart'])
 async def send_welcome(message: types.Message):
-  global status
+  global status,Time
   if status == False:
     status = True
     await message.answer("Started Tracking...")
     while status == True:
       await Request(message)
-      time.sleep(10)
+      time.sleep(Time) #It checks the price every hour
   else:
     await message.answer("Tracking is already running")
 
