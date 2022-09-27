@@ -24,6 +24,7 @@ Install python libraries
 ```bash
   pip install -r requirements.txt
 ```
+Telegram Bot Token must be added in your environment variables
 
 Start the program
 
