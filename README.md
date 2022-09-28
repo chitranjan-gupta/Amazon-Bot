@@ -24,7 +24,7 @@ Install python libraries
 ```bash
   pip install -r requirements.txt
 ```
-Telegram Bot Token must be added in your environment variables
+Telegram Bot Token must be added in your environment variables. To know how to add the token visit [wiki](https://github.com/chitranjan01/Amazon-Bot/wiki).
 
 Start the program
 
