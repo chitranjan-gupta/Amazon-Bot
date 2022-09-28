@@ -1,7 +1,7 @@
 # Amazon-Bot
 
 Amazon Product Price Tracking Telegram Bot. 
-Read the documentation on [wiki](https://github.com/chitranjan01/Amazon-Bot/wiki)
+Read the documentation on [wiki](https://github.com/chitranjan01/Amazon-Bot/wiki).
 ## Run Locally
 
 Clone the project
@@ -17,7 +17,7 @@ Go to the project directory
 ```
 Python Must be installed on your system
 ```
-https://www.python.org/
+  https://www.python.org/
 ```
 Install python libraries
 
