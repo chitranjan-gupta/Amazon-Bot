@@ -6,6 +6,11 @@ Read the documentation on [wiki](https://github.com/chitranjan01/Amazon-Bot/wiki
 
 Clone the project
 
+Python Must be installed on your system
+```
+  https://www.python.org/
+```
+
 ```bash
   git clone https://github.com/chitranjan01/Amazon-Bot
 ```
@@ -15,10 +20,7 @@ Go to the project directory
 ```bash
   cd Amazon-Bot
 ```
-Python Must be installed on your system
-```
-  https://www.python.org/
-```
+
 Install python libraries
 
 ```bash
