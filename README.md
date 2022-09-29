@@ -1,6 +1,6 @@
 # Amazon-Bot
 ## Amazon Product Price Tracking Telegram Bot.
-Tried of continuously checking the decrease in price of product your want to purchase from Amazon. Do not worry this bot will help you in achieving it. This bot will check the price in every 24 hour (you can decrease it also) and if the price has decreased then it will send a telegram message with the decreased price.
+Weary about continuously checking the decrease in the price of the product you want to purchase from Amazon? Do not worry; The Amazon bot will help you in achieving it. The Amazon bot will check the price every 24 hours. And if the price has decreased. Then it will send a notification on telegram.
 Read the documentation on [wiki](https://github.com/chitranjan01/Amazon-Bot/wiki).
 ## Run Locally
 
