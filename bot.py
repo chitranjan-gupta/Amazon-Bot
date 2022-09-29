@@ -30,10 +30,10 @@ async def Request(message: types.Message):
         if len(prices) >= 1:
             if currentprice < prices[-1]:
                 prices.append(currentprice)
-                await message.answer(f"Current Price: {currentprice}")
+                await message.answer(f"Current Price: ₹{currentprice}")
         else:
             prices.append(currentprice)
-            await message.answer(f"Current Price: {currentprice}")
+            await message.answer(f"Current Price: ₹{currentprice}")
     else:
         print("Error")
 
