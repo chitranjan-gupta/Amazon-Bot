@@ -4,13 +4,11 @@ Weary about continuously checking the decrease in the price of the product you w
 Read the documentation on [wiki](https://github.com/chitranjan01/Amazon-Bot/wiki).
 ## Run Locally
 
-Clone the project
-
 Python Must be installed on your system
 ```
   https://www.python.org/
 ```
-
+Clone the project
 ```bash
   git clone https://github.com/chitranjan01/Amazon-Bot
 ```
