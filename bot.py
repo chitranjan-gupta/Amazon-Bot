@@ -61,7 +61,7 @@ def Telegram():
 
   executor.start_polling(disp)
 
-async def Request(message: types.Message):
+async def Request(url):
     session = Session()
     session.headers.update({
         'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36',
