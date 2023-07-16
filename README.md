@@ -11,7 +11,7 @@ Weary about continuously checking the decrease in the price of the product you w
 > The setup is given here is for a linux environment.
 * Clone the project
 ```bash
-$ git clone https://github.com/chitranjan01/Amazon-Bot.git
+$ git clone https://github.com/chitranjan-gupta/Amazon-Bot.git
 ```
 * Go to the project directory
 ```bash
@@ -29,7 +29,7 @@ $ pip3 install -U -r requirements.tt
 ### Environment Variables
 Properly setup the enviroment variables or populate bot.py with the values. Setting the environment variables is advised as some of the values are sensitive data, and should be kept secret. 
 * ```BOT_TOKEN``` - Telegram Bot Token. Obtain your bot token from [Bot Father](https://t.me/BotFather).
-> To know how to add the token visit [wiki](https://github.com/chitranjan01/Amazon-Bot/wiki/Installation#steps-to-add-the-token-value-in-the-environment-variable-of-your-system-1).
+> To know how to add the token visit [wiki](https://github.com/chitranjan-gupta/Amazon-Bot/wiki/Installation#steps-to-add-the-token-value-in-the-environment-variable-of-your-system-1).
 ### Run the bot
 ```bash
 $ python3 bot.py
@@ -46,10 +46,10 @@ Now go and ```/start``` the bot. If everything went fine, the bot will respond w
 * aiogram
 * lxml
 ## Supported Environment
-* [Linux](https://github.com/chitranjan01/Amazon-Bot/wiki/Installation#linux)
-* [Windows](https://github.com/chitranjan01/Amazon-Bot/wiki/Installation#windows)
-* [Android (Termux)](https://github.com/chitranjan01/Amazon-Bot/wiki/Installation#android)
+* [Linux](https://github.com/chitranjan-gupta/Amazon-Bot/wiki/Installation#linux)
+* [Windows](https://github.com/chitranjan-gupta/Amazon-Bot/wiki/Installation#windows)
+* [Android (Termux)](https://github.com/chitranjan-gupta/Amazon-Bot/wiki/Installation#android)
 ## Documentation
-Read the documentation on [wiki](https://github.com/chitranjan01/Amazon-Bot/wiki).
+Read the documentation on [wiki](https://github.com/chitranjan-gupta/Amazon-Bot/wiki).
 ## License
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
